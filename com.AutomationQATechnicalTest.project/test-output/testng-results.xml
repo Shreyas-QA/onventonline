@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T16:57:22 IST" name="onvenAPP" finished-at="2023-04-19T16:58:05 IST" duration-ms="43040">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T16:57:22 IST" name="Regression" finished-at="2023-04-19T16:58:05 IST" duration-ms="43040">
+      <class name="onventTests.DashboardTest">
+        <test-method signature="TakeScreenshot()[pri:3, instance:onventTests.DashboardTest@37918c79]" started-at="2023-04-19T16:57:58 IST" name="TakeScreenshot" finished-at="2023-04-19T16:58:00 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method signature="AddPostonLiveWall()[pri:4, instance:onventTests.DashboardTest@37918c79]" started-at="2023-04-19T16:58:00 IST" name="AddPostonLiveWall" finished-at="2023-04-19T16:58:03 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPostonLiveWall -->
+        <test-method signature="LogoutDashboard()[pri:5, instance:onventTests.DashboardTest@37918c79]" started-at="2023-04-19T16:58:03 IST" name="LogoutDashboard" finished-at="2023-04-19T16:58:05 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutDashboard -->
+      </class> <!-- onventTests.DashboardTest -->
+      <class name="onventTests.RegistrationTest">
+        <test-method signature="CompleteRegistrationForm()[pri:2, instance:onventTests.RegistrationTest@38c5cc4c]" started-at="2023-04-19T16:57:24 IST" name="CompleteRegistrationForm" finished-at="2023-04-19T16:57:58 IST" duration-ms="34330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteRegistrationForm -->
+      </class> <!-- onventTests.RegistrationTest -->
+      <class name="onventTests.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:onventTests.HomeTest@43ee72e6]" started-at="2023-04-19T16:57:00 IST" name="setup" finished-at="2023-04-19T16:57:22 IST" duration-ms="21425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_to_homepage()[pri:1, instance:onventTests.HomeTest@43ee72e6]" started-at="2023-04-19T16:57:22 IST" name="navigate_to_homepage" finished-at="2023-04-19T16:57:24 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:onventTests.HomeTest@43ee72e6]" started-at="2023-04-19T16:58:05 IST" name="TearDown" finished-at="2023-04-19T16:58:05 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- onventTests.HomeTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- onvenAPP -->
+</testng-results>
